@@ -14,6 +14,8 @@
 		F8530E031AC77C6E004B7208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8530E021AC77C6E004B7208 /* Images.xcassets */; };
 		F8530E061AC77C6E004B7208 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8530E041AC77C6E004B7208 /* LaunchScreen.xib */; };
 		F8530E121AC77C6E004B7208 /* ArmoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8530E111AC77C6E004B7208 /* ArmoireTests.swift */; };
+		F8530E1C1AC7A15F004B7208 /* CollectionViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8530E1B1AC7A15F004B7208 /* CollectionViewController2.swift */; };
+		F8B236081AC84EC000C156BF /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B236071AC84EC000C156BF /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		F8530E0B1AC77C6E004B7208 /* ArmoireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmoireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8530E101AC77C6E004B7208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8530E111AC77C6E004B7208 /* ArmoireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoireTests.swift; sourceTree = "<group>"; };
+		F8530E1B1AC7A15F004B7208 /* CollectionViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController2.swift; sourceTree = "<group>"; };
+		F8B236051AC84EC000C156BF /* Armoire-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Armoire-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8B236061AC84EC000C156BF /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		F8B236071AC84EC000C156BF /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,15 @@
 			children = (
 				F8530DF81AC77C6E004B7208 /* AppDelegate.swift */,
 				F8530DFD1AC77C6E004B7208 /* ViewController.swift */,
+				F8530E1B1AC7A15F004B7208 /* CollectionViewController2.swift */,
+				F8B236061AC84EC000C156BF /* CollectionViewController.h */,
+				F8B236071AC84EC000C156BF /* CollectionViewController.m */,
 				F8530DFF1AC77C6E004B7208 /* Main.storyboard */,
 				F8530E021AC77C6E004B7208 /* Images.xcassets */,
 				F8530E041AC77C6E004B7208 /* LaunchScreen.xib */,
 				F8530DFA1AC77C6E004B7208 /* Armoire.xcdatamodeld */,
 				F8530DF61AC77C6E004B7208 /* Supporting Files */,
+				F8B236051AC84EC000C156BF /* Armoire-Bridging-Header.h */,
 			);
 			path = Armoire;
 			sourceTree = "<group>";
@@ -215,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8530E1C1AC7A15F004B7208 /* CollectionViewController2.swift in Sources */,
 				F8530DFE1AC77C6E004B7208 /* ViewController.swift in Sources */,
 				F8530DF91AC77C6E004B7208 /* AppDelegate.swift in Sources */,
+				F8B236081AC84EC000C156BF /* CollectionViewController.m in Sources */,
 				F8530DFC1AC77C6E004B7208 /* Armoire.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +354,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Armoire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Armoire/Armoire-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +367,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Armoire/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Armoire/Armoire-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +428,7 @@
 				F8530E171AC77C6E004B7208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8530E181AC77C6E004B7208 /* Build configuration list for PBXNativeTarget "ArmoireTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +437,7 @@
 				F8530E1A1AC77C6E004B7208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
