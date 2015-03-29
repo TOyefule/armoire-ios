@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8530DF91AC77C6E004B7208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8530DF81AC77C6E004B7208 /* AppDelegate.swift */; };
+		F8530DFC1AC77C6E004B7208 /* Armoire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8530DFA1AC77C6E004B7208 /* Armoire.xcdatamodeld */; };
+		F8530DFE1AC77C6E004B7208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8530DFD1AC77C6E004B7208 /* ViewController.swift */; };
+		F8530E011AC77C6E004B7208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8530DFF1AC77C6E004B7208 /* Main.storyboard */; };
+		F8530E031AC77C6E004B7208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8530E021AC77C6E004B7208 /* Images.xcassets */; };
+		F8530E061AC77C6E004B7208 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8530E041AC77C6E004B7208 /* LaunchScreen.xib */; };
+		F8530E121AC77C6E004B7208 /* ArmoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8530E111AC77C6E004B7208 /* ArmoireTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8530E0C1AC77C6E004B7208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8530DEB1AC77C6E004B7208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8530DF21AC77C6E004B7208;
+			remoteInfo = Armoire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8530DF31AC77C6E004B7208 /* Armoire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armoire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8530DF71AC77C6E004B7208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8530DF81AC77C6E004B7208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8530DFB1AC77C6E004B7208 /* Armoire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Armoire.xcdatamodel; sourceTree = "<group>"; };
+		F8530DFD1AC77C6E004B7208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8530E001AC77C6E004B7208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8530E021AC77C6E004B7208 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8530E051AC77C6E004B7208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8530E0B1AC77C6E004B7208 /* ArmoireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmoireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8530E101AC77C6E004B7208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8530E111AC77C6E004B7208 /* ArmoireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoireTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8530DF01AC77C6E004B7208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8530E081AC77C6E004B7208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8530DEA1AC77C6E004B7208 = {
+			isa = PBXGroup;
+			children = (
+				F8530DF51AC77C6E004B7208 /* Armoire */,
+				F8530E0E1AC77C6E004B7208 /* ArmoireTests */,
+				F8530DF41AC77C6E004B7208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8530DF41AC77C6E004B7208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8530DF31AC77C6E004B7208 /* Armoire.app */,
+				F8530E0B1AC77C6E004B7208 /* ArmoireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8530DF51AC77C6E004B7208 /* Armoire */ = {
+			isa = PBXGroup;
+			children = (
+				F8530DF81AC77C6E004B7208 /* AppDelegate.swift */,
+				F8530DFD1AC77C6E004B7208 /* ViewController.swift */,
+				F8530DFF1AC77C6E004B7208 /* Main.storyboard */,
+				F8530E021AC77C6E004B7208 /* Images.xcassets */,
+				F8530E041AC77C6E004B7208 /* LaunchScreen.xib */,
+				F8530DFA1AC77C6E004B7208 /* Armoire.xcdatamodeld */,
+				F8530DF61AC77C6E004B7208 /* Supporting Files */,
+			);
+			path = Armoire;
+			sourceTree = "<group>";
+		};
+		F8530DF61AC77C6E004B7208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8530DF71AC77C6E004B7208 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8530E0E1AC77C6E004B7208 /* ArmoireTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8530E111AC77C6E004B7208 /* ArmoireTests.swift */,
+				F8530E0F1AC77C6E004B7208 /* Supporting Files */,
+			);
+			path = ArmoireTests;
+			sourceTree = "<group>";
+		};
+		F8530E0F1AC77C6E004B7208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8530E101AC77C6E004B7208 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8530DF21AC77C6E004B7208 /* Armoire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8530E151AC77C6E004B7208 /* Build configuration list for PBXNativeTarget "Armoire" */;
+			buildPhases = (
+				F8530DEF1AC77C6E004B7208 /* Sources */,
+				F8530DF01AC77C6E004B7208 /* Frameworks */,
+				F8530DF11AC77C6E004B7208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Armoire;
+			productName = Armoire;
+			productReference = F8530DF31AC77C6E004B7208 /* Armoire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8530E0A1AC77C6E004B7208 /* ArmoireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8530E181AC77C6E004B7208 /* Build configuration list for PBXNativeTarget "ArmoireTests" */;
+			buildPhases = (
+				F8530E071AC77C6E004B7208 /* Sources */,
+				F8530E081AC77C6E004B7208 /* Frameworks */,
+				F8530E091AC77C6E004B7208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8530E0D1AC77C6E004B7208 /* PBXTargetDependency */,
+			);
+			name = ArmoireTests;
+			productName = ArmoireTests;
+			productReference = F8530E0B1AC77C6E004B7208 /* ArmoireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8530DEB1AC77C6E004B7208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Bartr LLC";
+				TargetAttributes = {
+					F8530DF21AC77C6E004B7208 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F8530E0A1AC77C6E004B7208 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F8530DF21AC77C6E004B7208;
+					};
+				};
+			};
+			buildConfigurationList = F8530DEE1AC77C6E004B7208 /* Build configuration list for PBXProject "Armoire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8530DEA1AC77C6E004B7208;
+			productRefGroup = F8530DF41AC77C6E004B7208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8530DF21AC77C6E004B7208 /* Armoire */,
+				F8530E0A1AC77C6E004B7208 /* ArmoireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8530DF11AC77C6E004B7208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8530E011AC77C6E004B7208 /* Main.storyboard in Resources */,
+				F8530E061AC77C6E004B7208 /* LaunchScreen.xib in Resources */,
+				F8530E031AC77C6E004B7208 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8530E091AC77C6E004B7208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8530DEF1AC77C6E004B7208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8530DFE1AC77C6E004B7208 /* ViewController.swift in Sources */,
+				F8530DF91AC77C6E004B7208 /* AppDelegate.swift in Sources */,
+				F8530DFC1AC77C6E004B7208 /* Armoire.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8530E071AC77C6E004B7208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8530E121AC77C6E004B7208 /* ArmoireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8530E0D1AC77C6E004B7208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8530DF21AC77C6E004B7208 /* Armoire */;
+			targetProxy = F8530E0C1AC77C6E004B7208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8530DFF1AC77C6E004B7208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8530E001AC77C6E004B7208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8530E041AC77C6E004B7208 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8530E051AC77C6E004B7208 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8530E131AC77C6E004B7208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8530E141AC77C6E004B7208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8530E161AC77C6E004B7208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Armoire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8530E171AC77C6E004B7208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Armoire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8530E191AC77C6E004B7208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArmoireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armoire.app/Armoire";
+			};
+			name = Debug;
+		};
+		F8530E1A1AC77C6E004B7208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArmoireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armoire.app/Armoire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8530DEE1AC77C6E004B7208 /* Build configuration list for PBXProject "Armoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8530E131AC77C6E004B7208 /* Debug */,
+				F8530E141AC77C6E004B7208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8530E151AC77C6E004B7208 /* Build configuration list for PBXNativeTarget "Armoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8530E161AC77C6E004B7208 /* Debug */,
+				F8530E171AC77C6E004B7208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8530E181AC77C6E004B7208 /* Build configuration list for PBXNativeTarget "ArmoireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8530E191AC77C6E004B7208 /* Debug */,
+				F8530E1A1AC77C6E004B7208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8530DFA1AC77C6E004B7208 /* Armoire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8530DFB1AC77C6E004B7208 /* Armoire.xcdatamodel */,
+			);
+			currentVersion = F8530DFB1AC77C6E004B7208 /* Armoire.xcdatamodel */;
+			path = Armoire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8530DEB1AC77C6E004B7208 /* Project object */;
+}
